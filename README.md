@@ -1,10 +1,9 @@
 # Artefacto Bloque B: Gantt con línea base vs. real
-
 Lee un CSV de cronograma, dibuja el Gantt con línea base y real superpuestas
 y calcula la desviación por actividad.
 
 ## Requisitos
-Python 3.9+ y `pip install pandas matplotlib`
+Python 3+ y `pip install -r requirements.txt`
 
 ## Ejecutar
     python gantt_linea_base.py datos_demo.csv
