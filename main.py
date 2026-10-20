@@ -11,11 +11,9 @@ Salidas:
 import sys
 import pandas as pd
 import matplotlib
-matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-
-COLS = ["id", "actividad", "responsable", "inicio_base", "fin_base",
-        "inicio_real", "fin_real", "avance_pct"]
+matplotlib.use("Agg")
+COLS = ["id", "actividad", "responsable", "inicio_base", "fin_base", "inicio_real", "fin_real", "avance_pct"]
 
 
 def cargar(ruta):
@@ -58,8 +56,7 @@ def graficar(df, salida="gantt_linea_base.png"):
                     color="#d1495b" if atras else "#2e86ab",
                     label="Real (atrasada)" if (atras and i == 0) else None)
     ax.set_yticks([len(df) - i for i in range(len(df))])
-    ax.set_yticklabels([f"{r['id']} {r['actividad']}" for _, r in df.iterrows()],
-                       fontsize=8)
+    ax.set_yticklabels([f"{r['id']} {r['actividad']}" for _, r in df.iterrows()], fontsize=8)
     ax.xaxis_date()
     fig.autofmt_xdate()
     ax.set_title("Gantt: línea base (gris) vs. real (azul = a tiempo, rojo = atrasada)")
