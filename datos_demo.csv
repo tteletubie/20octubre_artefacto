@@ -1,0 +1,7 @@
+id,actividad,responsable,inicio_base,fin_base,inicio_real,fin_real,avance_pct
+D1,DEMO Diseñar esquema,Persona 1,2026-10-26,2026-10-30,2026-10-26,2026-10-30,100
+D2,DEMO Migraciones,Persona 2,2026-11-02,2026-11-06,2026-11-02,2026-11-09,100
+D3,DEMO Clases de dominio,Persona 3,2026-11-04,2026-11-13,2026-11-05,2026-11-16,100
+D4,DEMO Logica de prestamos,Persona 3,2026-11-16,2026-11-24,2026-11-17,2026-11-27,100
+D5,DEMO Pantallas,Persona 4,2026-11-09,2026-11-20,2026-11-09,2026-11-19,100
+D6,DEMO Pruebas,Persona 5,2026-11-25,2026-12-02,,,0

@@ -1,0 +1,4 @@
+id,actividad,responsable,inicio_base,fin_base,inicio_real,fin_real,avance_pct
+A1,Levantar requisitos,,,,,,
+A2,Diseñar esquema PostgreSQL,,,,,,
+A3,Migraciones versionadas,,,,,,
